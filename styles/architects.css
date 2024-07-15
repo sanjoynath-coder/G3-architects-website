@@ -51,6 +51,12 @@ main>section {
     margin-top: 130px;
 }
 
+.section-title {
+    font-size: 2.8rem;
+    margin-bottom: 24px;
+
+}
+
 /* header styles */
 
 /* navbar releated styles */
@@ -116,17 +122,11 @@ main>section {
     max-width: 530px;
 }
 
-.feature-title {
-    font-size: 2.8rem;
-    margin-bottom: 24px;
-
-}
-
 #part-one {
     font-weight: 500;
 }
 
-
+/* meduam size device */
 @media screen and (max-width:992px) {
     .teams {
         flex-direction: column;
@@ -147,13 +147,12 @@ main>section {
         flex-direction: column;
         gap: 24px;
     }
-.team-image-container{
-    grid-template-columns: repeat(1, 1fr);
-}
+
+    .team-image-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 
     .our-features {
         margin-left: 20px;
     }
 }
-
-/* meduam size device */
